@@ -1,1 +1,0 @@
-The CycleGAN models will be saved here.
