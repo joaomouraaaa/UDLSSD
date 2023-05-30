@@ -1,3 +1,0 @@
-Training image/segmentation pairs data can be downloaded from:
-
-https://drive.google.com/drive/folders/1rWqjdGdb1Mj9LaJdit7bypM0A5XXopBu?usp=share_link
