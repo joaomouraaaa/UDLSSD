@@ -11,7 +11,7 @@ https://drive.google.com/drive/folders/1rWqjdGdb1Mj9LaJdit7bypM0A5XXopBu?usp=sha
 
 
 
-Set of instructions to run the models:
+Set of instructions to run the models: (Can be found on "notebook.ipynb")
 
 
 Run the cyclegan model:
