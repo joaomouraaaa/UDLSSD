@@ -3,7 +3,7 @@ Code for the project: Unsupervised deep learning methods for SAR ship detection
 With the avaiable code it is possible to run the models for your own data.
 Small amount of data is also provided.
 
-Link to download trained files:
+Link to download trained files: (downloaded files should be added to "models" folder)
 https://drive.google.com/drive/folders/1zkLqgbw2zxfE5Z3xpWf919LO98ikMEJY?usp=share_link
 
 Link to download paired SAR-Ship-Dataset images with their supervised segmentation:
