@@ -11,14 +11,15 @@ https://drive.google.com/drive/folders/1rWqjdGdb1Mj9LaJdit7bypM0A5XXopBu?usp=sha
 
 
 
-Set of instructions to run the models:
+Set of instructions to run the models: (Can be found on "notebook.ipynb")
 
 
 Run the cyclegan model:
 
   i) Start by adding your files to CycleGAN/data/..
 
-  ii) Run: !python3 CycleGAN/code/main_cycle_gan.py
+  ii) Run: 
+    !python3 CycleGAN/code/main_cycle_gan.py
 
 Run UDSEP model:
 
@@ -30,13 +31,15 @@ Run UDSEP model:
 
       !python3 UDSEP/code/DSEP_transformation.py
 
-  iii) Run !python3 UDSEP/code/main_unet.py
+  iii) Run 
+    !python3 UDSEP/code/main_unet.py
 
 
 
 Test the results:
 
-  i) Run !python3 data/test/test_results.py “model” “model_number”
+  i) Run 
+    !python3 data/test/test_results.py “model” “model_number”
 
   Examples:  
 
