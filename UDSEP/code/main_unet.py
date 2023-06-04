@@ -32,7 +32,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 #                    fill_mode='nearest')
 
 
-directory='UDSEP/data/images'
+directory='data/train/UDSEP/images'
 names = os.listdir(directory)
 
 #data_gen_args = dict()

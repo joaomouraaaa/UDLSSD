@@ -49,10 +49,10 @@ def load_images(path, size=(256,256)):
 	return asarray(data_list)
 
 # load dataset A
-dataA = load_images('CycleGAN/data/Domain_A/')
+dataA = load_images('data/train/CycleGAN/Domain_A/')
 print('Loaded dataA: ', dataA.shape)
 # load dataset B
-dataB = load_images('CycleGAN/data/Domain_B/')
+dataB = load_images('data/train/CycleGAN/Domain_B/')
 print('Loaded dataB: ', dataB.shape)
 
 

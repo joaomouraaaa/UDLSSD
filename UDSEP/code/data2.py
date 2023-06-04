@@ -107,13 +107,13 @@ class TrainDataGenerator(keras.utils.all_utils.Sequence):
 #        # Generate data
         for i, ID in enumerate(list_IDs_temp):
             # Store sample
-            im=Image.open('UDSEP/data/DSEP_results/images/' + ID)
+            im=Image.open('data/train/UDSEP/DSEP_results/images/' + ID)
             # print(np.shape(im))
 
             im = np.reshape(im,(256,256,1)) #adicionei isto
             im=np.array(im)/255
 
-            a=Image.open('UDSEP/data/DSEP_results/segmentation/' + ID)
+            a=Image.open('data/train/UDSEP/DSEP_results/segmentation/' + ID)
             a=np.array(a)
             msk[:,:,0]=a/255
             msk[:,:,1]=np.logical_not(msk[:,:,0])
@@ -174,12 +174,12 @@ class DataGenerator(keras.utils.all_utils.Sequence):
         # Generate data sem data augmentation
         for i, ID in enumerate(list_IDs_temp):
             # Store sample
-            im=Image.open('UDSEP/data/DSEP_results/images/' + ID)
+            im=Image.open('data/train/UDSEP/DSEP_results/images/' + ID)
             im = np.reshape(im,(256,256,1)) #adicionei isto
             # im = im.reshape(im,(*self.dim,n_channels))
             im=np.array(im)/255
 
-            a=Image.open('UDSEP/data//DSEP_results/segmentation/' + ID)
+            a=Image.open('data/train/UDSEP/DSEP_results/segmentation/' + ID)
             a=np.array(a)
             msk[:,:,0]=a/255
             msk[:,:,1]=np.logical_not(msk[:,:,0])            

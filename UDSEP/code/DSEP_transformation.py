@@ -130,12 +130,12 @@ def cover_non_black(img, img_clean, labels_cover, nr_boat,ii):
 def save_mask(mask, f):
     
     im = Image.fromarray(255*np.uint8(mask),'L')
-    im.save('UDSEP/data/DSEP_results/segmentation/'+f,"JPEG", vmin = 0, vmax = 255)
+    im.save('data/train/UDSEP/DSEP_results/segmentation/'+f,"JPEG", vmin = 0, vmax = 255)
 
     
 def save_image(image, f):
     image = Image.fromarray(np.uint8(image),'L')
-    image.save('UDSEP/data/DSEP_results/images/'+f, "JPEG", vmin = 0, vmax = 255)
+    image.save('data/train/UDSEP/DSEP_results/images/'+f, "JPEG", vmin = 0, vmax = 255)
    
 
 def random_noise(image):
@@ -157,10 +157,10 @@ def adjust_gamma(image, gamma):
 
 # --------- main --------
 
-files = glob.glob('UDSEP/data/UDSEP_results/images/*')
+files = glob.glob('data/train/UDSEP/DSEP_results/images/*')
 for f in files: #cleans folders
     os.remove(f)
-files = glob.glob('UDSEP/data/UDSEP_results/segmentation/*')
+files = glob.glob('data/train/UDSEP/DSEP_results/segmentation/*')
 for f in files: #cleans folders
     os.remove(f)
 
