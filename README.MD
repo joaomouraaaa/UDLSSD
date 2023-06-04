@@ -1,7 +1,9 @@
 # Unsupervised Ship Detection
 Code for the project: Unsupervised deep learning methods for SAR ship detection
 
-![Alt text](data/train/CycleGAN/Domain_A/100?raw=true "Title")
+![Alt text](data/fig1.png?raw=true "Title")
+![Alt text](data/fig2.png?raw=true "Title")
+
 
 
 
