@@ -6,6 +6,8 @@ Code for the project: Unsupervised deep learning methods for SAR ship detection
 
 
 
+<img src="data/fig2.png" alt= “data/fig2.png” width="100" height="100">
+
 
 
 With this code, it is possible to run the models for your own data.  We also provide some of the data used in our experiments.
