@@ -23,9 +23,9 @@ ii) Run:
 
 Train the UDSEP model:
 
-i) Start by adding your files to UDSEP/data/images
+    i) Start by adding your files to UDSEP/data/images
 
-ii) Use the cyclegan model to generate images with DSEP
+    ii) Use the cyclegan model to generate images with DSEP
 
     !python3 CycleGAN/code/generate_predictions.py
     !python3 UDSEP/code/DSEP_transformation.py
@@ -35,17 +35,17 @@ The result image pairs should look like:
 <img src="data/fig3.png" alt= “data/fig3.png” width="256" height="256"> <img src="data/fig4.png" alt= “data/fig4.png” width="256" height="256">
 
     
-iii) Run 
+    iii) Run 
 
     !python3 UDSEP/code/main_unet.py
 
 Test the trained models:
 
-i) Run 
+    i) Run 
 
     !python3 data/test/test_results.py "model" "model_number"
 
-Examples:
+    Examples:
 
     !python3 data/test/test_results.py unet 150
 
@@ -55,3 +55,9 @@ The results should look like:
     
 <img src="data/fig1.png" alt= “data/fig1.png” width="256" height="256"> <img src="data/fig2.png" alt= “data/fig2.png” width="256" height="256">
 
+
+Evaluate the predictions:
+
+i) Run 
+
+    !python3 data/test/test_results.py "model" "model_number"
