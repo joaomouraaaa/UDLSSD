@@ -63,7 +63,8 @@ i) Run
     !python3 utils/evaluate.py
     
 The f1-score, precision, and recall will be saved in a numpy file in the following format:
-results = [f1,precision,recall,f1_simple,precision_simple,recall_simple,f1_complex,precision_complex,recall_complex]
+
+    results = [f1,precision,recall,f1_simple,precision_simple,recall_simple,f1_complex,precision_complex,recall_complex]
 
     
  
