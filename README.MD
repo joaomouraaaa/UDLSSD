@@ -51,7 +51,7 @@ Examples:
 
     !python3 data/test/test_results.py cyclegan g_model_AtoB_016894.h5
     
-    The results should look like:
+The results should look like:
     
-    <img src="data/fig1.png" alt= “data/fig1.png” width="256" height="256"> <img src="data/fig2.png" alt= “data/fig2.png” width="256" height="256">
+<img src="data/fig1.png" alt= “data/fig1.png” width="256" height="256"> <img src="data/fig2.png" alt= “data/fig2.png” width="256" height="256">
 
