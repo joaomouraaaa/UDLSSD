@@ -137,7 +137,7 @@ def evaluate(ground_truth_dir, predictions_dir, complexity_list):
     FN_complex = np.zeros((9,1))
     for gt, pred in zip(sorted(os.listdir(ground_truth_dir)), sorted(os.listdir(predictions_dir))):
         
-        index = sorted_int_list.index(int(gt))
+        index = sorted_int_list.index(int(os.path.splitext(gt)[0]))
         complexity = complexity_list[index]
         
         #read each file (ground truth segmentation and predicted segmentation)
@@ -168,11 +168,12 @@ def evaluate(ground_truth_dir, predictions_dir, complexity_list):
 
 
 
-
 path = 'data/test/images_test'
 
 ff = os.listdir(path)
 ff_sorted = sorted(ff)
+for i in range(0,len(ff_sorted)):
+	ff_sorted[i] =  os.path.splitext(ff_sorted[i])[0] 
 int_list = list(map(int, ff_sorted))
 sorted_int_list = sorted(int_list)
 
@@ -185,7 +186,6 @@ predictions_dir = 'experiments/results/segmentation_results_binary'
 
 
 model_number = '01'
-
 
  
 TP_total, FP_total, FN_total, TP_simple, FP_simple, FN_simple, TP_complex, FP_complex, FN_complex = evaluate(ground_truth_dir, predictions_dir, complexity_list)

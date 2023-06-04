@@ -170,8 +170,8 @@ X_total =[]
 ii = 0
 
 parent_dir = dirname(dirname(abspath(os.getcwd())))
-path = 'UDSEP/data/images'
-path_cycle = 'UDSEP/data/segmentation_from_cycle'
+path = 'data/train/UDSEP/images'
+path_cycle = 'data/train/UDSEP/segmentation_from_cycle'
 
 ff1 = os.listdir(path_cycle)
 
