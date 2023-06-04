@@ -13,6 +13,7 @@ Train the cyclegan model:
 i) Start by adding your files to CycleGAN/data/..
 
 ii) Run: 
+
     !python3 CycleGAN/code/main_cycle_gan.py
 
 Train the UDSEP model:
@@ -20,9 +21,11 @@ Train the UDSEP model:
 i) Start by adding your files to UDSEP/data/images
 
 ii) Use the cyclegan model to generate images with DSEP
+
     !python3 CycleGAN/code/generate_predictions.py
     !python3 UDSEP/code/DSEP_transformation.py
 iii) Run 
+
     !python3 UDSEP/code/main_unet.py
 
 Test the trained models:
