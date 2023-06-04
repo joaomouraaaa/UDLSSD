@@ -32,7 +32,7 @@ model_name = 'g_model_AtoB_016894.h5'
 cust = {'InstanceNormalization': InstanceNormalization}
 model = load_model('CycleGAN/models/'+model_name,cust)
 
-path = 'UDSEP/data/images'
+path = 'data/train/UDSEP/images'
 
 
 for ff in os.listdir(path):
@@ -58,7 +58,7 @@ for ff in os.listdir(path):
     
     image = 255*np.uint8(ypred)
     im = Image.fromarray(image,'L')
-    im.save('UDSEP/data/segmentation_from_cycle/'+ff,"JPEG")
+    im.save('data/train/UDSEP/segmentation_from_cycle/'+ff,"JPEG")
     
    
     
