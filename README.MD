@@ -32,6 +32,7 @@ ii) Use the cyclegan model to generate images with DSEP
     !python3 UDSEP/code/DSEP_transformation.py
     
 The result image pairs should look like:
+
 <img src="data/fig1.png" alt= “data/fig1.png” width="256" height="256"> <img src="data/fig2.png" alt= “data/fig2.png” width="256" height="256">
 
     
