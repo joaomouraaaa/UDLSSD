@@ -1,8 +1,7 @@
 # Unsupervised Ship Detection
 Code for the project: Unsupervised deep learning methods for SAR ship detection
 
-<img src="data/fig2.png" alt= “data/fig1.png” width="400" height="400">
-<img src="data/fig2.png" alt= “data/fig2.png” width="400" height="400">
+<img src="data/fig1.png" alt= “data/fig1.png” width="400" height="400"> <img src="data/fig2.png" alt= “data/fig2.png” width="400" height="400">
 
 
 
