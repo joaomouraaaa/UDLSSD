@@ -39,10 +39,10 @@ Run UDSEP model:
 Test the results:
 
   i) Run 
-    !python3 data/test/test_results.py “model” “model_number”
+    !python3 utils/test_results.py “model” “model_number”
 
   Examples:  
 
-    !python3 data/test/test_results.py unet 150
+    !python3 utils/test_results.py unet 150
 
-    !python3 data/test/test_results.py cyclegan g_model_AtoB_016894.h5
+    !python3 utils/test_results.py cyclegan g_model_AtoB_016894.h5
