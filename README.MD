@@ -51,11 +51,11 @@ Examples:
 
     !python3 utils/test_results.py cyclegan g_model_AtoB_016894.h5
     
-Visual results are save "experiments/figs_results/" and should look like:
+Visual results are saved to "experiments/figs_results/" and should look like:
     
 <img src="data/fig1.png" alt= “data/fig1.png” width="256" height="256"> <img src="data/fig2.png" alt= “data/fig2.png” width="256" height="256">
 
-The binary prediction results are saved to "experiments/segmentation_results_binary/"
+The binary prediction results are saved to "experiments/segmentation_results_binary/".
 
 Evaluate the predictions:
 
