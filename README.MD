@@ -13,7 +13,7 @@ Link to download SAR-Ship-Dataset segmentation data (images and their ground tru
 ## Instructions
 Set of instructions to run the models: (Can be found on "notebook.ipynb") 
 
-Train the cyclegan model:
+To train the CycleGAN model:
 
 i) Start by adding your files to CycleGAN/data/..
 
@@ -21,7 +21,7 @@ ii) Run:
 
     !python3 CycleGAN/code/main_cycle_gan.py
 
-Train the UDSEP model:
+To train the UDSEP model:
 
 i) Start by adding your files to UDSEP/data/images
 
@@ -39,7 +39,7 @@ iii) Run
 
     !python3 UDSEP/code/main_unet.py
 
-Test the trained models:
+To test the trained models:
 
 i) Run 
 
@@ -57,7 +57,7 @@ Visual results are saved to "experiments/figs_results/" and should look like:
 
 The binary prediction results are saved to "experiments/segmentation_results_binary/".
 
-Evaluate the predictions:
+To evaluate the predictions:
 
 i) Run 
 
