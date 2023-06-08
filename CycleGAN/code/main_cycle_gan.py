@@ -6,7 +6,6 @@ Created on Fri Apr 22 14:33:29 2022
 @author: joaomoura
 """
 
-# example of training a cyclegan on the horse2zebra dataset
 import numpy as np
 from random import random
 from numpy import load
@@ -23,8 +22,6 @@ from keras.layers import Conv2DTranspose
 from keras.layers import LeakyReLU
 from keras.layers import Activation
 from keras.layers import Concatenate
-# from keras_contrib.layers.normalization.instancenormalization import InstanceNormalization
-#from tensorflow_addons.layers import InstanceNormalization
 from keras_contrib.layers.normalization.instancenormalization import InstanceNormalization
 from matplotlib import pyplot
 from keras.models import load_model

@@ -2,10 +2,8 @@
 
 from keras.models import Model
 from keras.layers import Input, Conv2D, MaxPooling2D, UpSampling2D, concatenate, Conv2DTranspose, BatchNormalization, Dropout
-# from keras.optimizers import Adam
 from tensorflow.keras.optimizers import Adam
 from keras.utils.vis_utils import plot_model
-# from keras.utils import plot_model
 from keras import backend as K
 import numpy as np
 from keras.callbacks import ModelCheckpoint, LearningRateScheduler

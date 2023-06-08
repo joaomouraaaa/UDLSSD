@@ -110,12 +110,7 @@ def cover_non_black(img, img_clean, labels_cover, nr_boat,ii):
              
                 
                 img_new_background = background_location_rolled + img_new_background
-                # fig, ax = plt.subplots()
-                # plt.imshow(img_new_background, cmap="gray")
-                # plt.show()
                 
-                
-                # print(counter)
                 break
             if counter>30:
                 print("Did not find non boat with this size, covering with black..")
@@ -166,8 +161,6 @@ for f in files: #cleans folders
 
 patch_save = []
 X_total =[]
-
-ii = 0
 
 parent_dir = dirname(dirname(abspath(os.getcwd())))
 path = 'data/train/UDSEP/images'

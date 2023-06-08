@@ -4,7 +4,6 @@ import numpy as np
 import os
 import glob
 import skimage.io as io
-#import skimage.transform as trans
 from PIL import Image
 
 

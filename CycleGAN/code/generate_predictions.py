@@ -16,16 +16,6 @@ from keras.models import load_model
 from keras_contrib.layers.normalization.instancenormalization import InstanceNormalization
 
 
-
-def binaryMaskIOU(mask1, mask2, smooth=1):   # From the question.
-    mask1_area = np.count_nonzero(mask1 == 1)
-    mask2_area = np.count_nonzero(mask2 == 1)
-    intersection = np.count_nonzero(np.logical_and( mask1==1,  mask2==1 ))
-    iou = (smooth+intersection)/(mask1_area+mask2_area-intersection+smooth)
-    return iou
-
-
-
 model_name = 'g_model_AtoB_016894.h5'
 
 # load the models
@@ -34,14 +24,11 @@ model = load_model('CycleGAN/models/'+model_name,cust)
 
 path = 'data/train/UDSEP/images'
 
-
 for ff in os.listdir(path):
-    # print(ff)
     img_train = load_img(os.path.join(path,ff), color_mode = "grayscale")# target_size=(im_size, im_size))
     img_array = img_to_array(img_train)
     
-    # for i, ID in enumerate(list_IDs_test):
-    # im=np.array(Image.open('images_test/' + ID))
+
     im = img_array
     im = np.reshape(im,(256,256,1)) #adicionei isto
     img= np.expand_dims(im,axis=0)
