@@ -15,7 +15,7 @@ Set of instructions to run the models: (Can be found on "notebook.ipynb")
 
 To train the CycleGAN model:
 
-i) Start by adding your files to CycleGAN/data/..
+i) Start by adding your files to data/train/CycleGAN/..
 
 ii) Run: 
 
@@ -23,7 +23,7 @@ ii) Run:
 
 To train the UDSEP model:
 
-i) Start by adding your files to UDSEP/data/images
+i) Start by adding your files to data/train/UDSEP/images
 
 ii) Use the cyclegan model to generate images with DSEP
 
