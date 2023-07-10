@@ -14,8 +14,6 @@ We made this data available.
 
 Link to download the segmentation data for part of the SAR-Ship-Dataset (images and their ground truth segmentation): https://drive.google.com/drive/folders/1rWqjdGdb1Mj9LaJdit7bypM0A5XXopBu?usp=share_link
 
-We also provide some of the data used in our experiments.
-
 ## Instructions
 Set of instructions to run the models: (Can be found on "notebook.ipynb") 
 
