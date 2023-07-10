@@ -9,7 +9,7 @@ With this code, it is possible to run the models for your own data. Nonetheless,
 Link to download the model weights files: (these files should be added to "models" folder) https://drive.google.com/drive/folders/1zkLqgbw2zxfE5Z3xpWf919LO98ikMEJY?usp=share_link
 
 ## Segmentation data
-In this work, 7000 images from the SAR-Ship-Dataset were manually segmented to train the supervised models. 
+In this work, 7000 images from the SAR-Ship-Dataset were manually segmented to train a supervised comparison model. 
 We made this data available.
 
 Link to download the segmentation data for part of the SAR-Ship-Dataset (images and their ground truth segmentation): https://drive.google.com/drive/folders/1rWqjdGdb1Mj9LaJdit7bypM0A5XXopBu?usp=share_link
