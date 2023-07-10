@@ -3,12 +3,18 @@
 Recent advances in deep learning have substantially facilitated the development of ship detection methods for synthetic aperture radar (SAR) images. However, most of the methods are supervised object detection methods, which require large amounts of labeled data. Labeling the images is extremely time-consuming and requires expert domain knowledge. Although large amounts of satellite data are available, most are unlabeled, thus they are not being used by supervised approaches. To take advantage of the huge and increasing amount of SAR data, we propose two unsupervised deep learning frameworks for SAR ship segmentation. The first approach is based on an image-to-image translation model, the CycleGAN, in which we exploit the model's unpaired image style transfer capabilities to learn the mapping from the SAR image domain to a segmentation domain using synthetically labeled data. The second approach, which we call UDSEP (U-net Detect-Select-Erase-Paste) builds on the first one and introduces a novel algorithm to generate synthetically labeled data with increased diversity. 
 We start by showing that our approaches outperform previous unsupervised methods while achieving 85\% of the performance of the fully supervised baseline. We then demonstrate the contribution of each component of our methods through an ablation study. Finally, we illustrate the migration ability by evaluating our approaches on two other SAR image datasets.
 
-## Additional files
-With this code, it is possible to run the models for your own data.  We also provide some of the data used in our experiments.
+## Pre-trained Weights
+With this code, it is possible to run the models for your own data. Nonetheless, you can also run the experiments with our trained models.
 
 Link to download the model weights files: (these files should be added to "models" folder) https://drive.google.com/drive/folders/1zkLqgbw2zxfE5Z3xpWf919LO98ikMEJY?usp=share_link
 
+## Segmentation data
+In this work, 7000 images from the SAR-Ship-Dataset were manually segmented to train the supervised models. 
+We made this data available.
+
 Link to download the segmentation data for part of the SAR-Ship-Dataset (images and their ground truth segmentation): https://drive.google.com/drive/folders/1rWqjdGdb1Mj9LaJdit7bypM0A5XXopBu?usp=share_link
+
+We also provide some of the data used in our experiments.
 
 ## Instructions
 Set of instructions to run the models: (Can be found on "notebook.ipynb") 
